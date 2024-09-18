@@ -60,3 +60,24 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+# ============ For C lang ============
+# Ignore object files
+*.o
+
+# Ignore executable files
+a.out
+myprogram  # Replace with your program's binary name
+
+# Ignore build directory
+build/
+bin/
+obj/
+
+# Ignore debug files
+*.log
+*.dSYM
+
+# Ignore editor/IDE files
+*.swp
+*.bak
+*.tmp
